@@ -12,11 +12,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Enlace a tu CSS personalizado -->
     <link rel="stylesheet" href="style/styles.css">
+    <!-- Enlace a favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
 </head>
 <body>
 
     <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg " style="background-color:#1FD070">
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color:#1FD070">
         <div class="container">
             <a class="navbar-brand" href="#">Mi Portafolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
@@ -42,58 +47,7 @@
         </div>
     </nav>
 
-    <!-- Carrusel de imágenes -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" id="inicio">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" 
-                    class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" 
-                    aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" 
-                    aria-label="Slide 3"></button>
-            
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active ">
-                <div class="d-flex justify-content-center">
-                    <img src="img/cafe" class="w-50 p-3" alt="Café">
-                </div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Cafetería</h5>
-                    <p>E-Commerce Café Rodriguez.</p>
-                </div>
-            </div>
-            <div class="carousel-item ">
-                <div class="d-flex justify-content-center">
-                    <img src="img/pizza" class="w-50 p-3" alt="Pizzeria">
-                </div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Pizzería</h5>
-                    <p>E-Commerce Pizzeria Luzi</p>
-                </div>
-            </div>
-            <div class="carousel-item ">
-                <div class="d-flex justify-content-center">
-                    <img src="img/juego" class="w-50 p-3" alt="Pizzeria">
-                </div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Video Juego</h5>
-                    <p>Es un RPG Novela Visual.</p>
-                </div>
-            </div>
-           
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" 
-                data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" 
-                data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-        </button>
-    </div>
+    
 
     <!-- Sección Sobre Mí -->
     <section id="sobre-mi" class="py-5">
@@ -115,6 +69,96 @@
     <section id="proyectos" class="bg-light py-5">
         <div class="container">
             <h2 class="text-center mb-4">Mis Proyectos</h2>
+
+            <!-- Carrusel de imágenes -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" id="inicio">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" 
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" 
+                            aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" 
+                            aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" 
+                            aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" 
+                            aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" 
+                            aria-label="Slide 6"></button>
+                    
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <div class="d-flex justify-content-center">
+                            <img src="img/cafe" class="w-50 p-2" alt="Café">
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Cafetería</h5>
+                            <p>E-Commerce Café Rodriguez.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="d-flex justify-content-center">
+                            <img src="img/pizza" class="w-50 p-2" alt="Pizzeria">
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Pizzería</h5>
+                            <p>E-Commerce Pizzeria Luzi</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="d-flex justify-content-center">
+                            <img src="img/juego" class="w-50 p-2" alt="Pizzeria">
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Video Juego</h5>
+                            <p>Es un RPG Novela Visual.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="d-flex justify-content-center">
+                            <img src="img/camara.jpg" class="w-50 p-2" alt="Pizzeria">
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>App Editor de Imagenes</h5>
+                            <p>Es una App simple que permite modificar imgenes.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="d-flex justify-content-center">
+                            <img src="img/Libro.jpg" class="w-50 p-2" alt="Pizzeria">
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Librería Libre</h5>
+                            <p>Es una Librería gratuita de acceso libre.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="d-flex justify-content-center">
+                            <img src="img/Computadora.jpg" class="w-50 p-2" alt="Pizzeria">
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>App de armado de computadora</h5>
+                            <p>Permite armar una computadora con un cierto presupuesto.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" 
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color:#1FD0E0"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" 
+                        data-bs-slide="next" >
+                    <span class="carousel-control-next-icon " aria-hidden="true" style="background-color:#1FD0E0"></span>
+                    <span class="visually-hidden" >Siguiente</span>
+                </button>
+            </div>
+
+
+
+
+
             <div class="row">
                 <!-- Proyecto 1 -->
                 <div class="col-md-4">
@@ -190,12 +234,12 @@
     </section>
 
     <!-- Pie de página -->
-    <footer class="text-white text-center p-4"  style="background-color:#1FD070">
+    <footer class="text-blck text-center p-4"  style="background-color:#1FD070">
         <p>&copy; 2023 Mi Portafolio. Todos los derechos reservados.</p>
         <div>
-            <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="text-black me-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-black me-3"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-black me-3"><i class="fab fa-linkedin-in"></i></a>
             
         </div>
     </footer>
