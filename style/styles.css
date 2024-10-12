@@ -17,10 +17,10 @@ body {
 
 
 
-.imgcarousel{
+/* .imgcarousel{
     height: 50%;
-    width: 50%;
-}
+    width: 100%;
+} */
 
 
 section {
@@ -40,13 +40,14 @@ footer a:hover {
 }
 
 .btn-primary {
-    background-color: #1FD0E0;
-    border-color: #1f93E0;
+    background-color: #1f93E0;
+    border-color: #1FD0E0;
+    color: #000000;
 }
 
 .btn-primary:hover {
-    background-color: #1f93E0;
-    border-color: #1FD0E0;
+    background-color: #1FD0E0;
+    border-color: #1f93E0;
 }
 
 #sobre-mi img {
